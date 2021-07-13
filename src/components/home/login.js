@@ -24,7 +24,7 @@ export const Login = () => {
                     <label className="custom-control-label" htmlFor="customCheck1">Recuerdame</label>
                 </div>
             </div>
-            <div>
+            <div className="btnIngresar">
             <button type="submit" className="btn btn-primary btn-block">Ingresar</button>
             </div>
         </form>
