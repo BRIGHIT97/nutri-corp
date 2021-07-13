@@ -12,7 +12,8 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './components/home/Home';
-import Login from './components/home/login.js';
+import { ShoppingCart } from './components/shopping/ShoppingCart';
+import { Login } from "./components/home/Login.js";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Login} />
         <Route exact path="/productos" component={Home} />
+        <Route path="/compras" component={ShoppingCart} />
       </Switch>
     </Router>
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../img/logo.jpg';
+import logo from '../../images/logo.jpg';
 
-const Login = () => {
+export const Login = () => {
     return (
         <form className="login">
             <div className="logo">
@@ -24,11 +24,9 @@ const Login = () => {
                     <label className="custom-control-label" htmlFor="customCheck1">Recuerdame</label>
                 </div>
             </div>
-            <div className="btnIngresar">
+            <div>
             <button type="submit" className="btn btn-primary btn-block">Ingresar</button>
             </div>
         </form>
     );
 }
-
-export default Login;
